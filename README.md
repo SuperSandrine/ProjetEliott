@@ -1,5 +1,7 @@
 # Astro Starter Kit: Basics
 
+Ce projet est un kit de démarrage Astro simple pour créer un site web de base.
+
 ```sh
 npm create astro@latest -- --template basics
 ```
@@ -16,6 +18,20 @@ npm create astro@latest -- --template basics
 - Node.js - v18.17.1 or **v20.5.0**, v22.0.0 or higher. ( v19 and v21 are not supported.)
 - Text editor - We recommend VS Code with our Official Astro extension.
 - Terminal - Astro is accessed through its command-line interface (CLI).
+
+## Installation
+
+1.  Clonez le dépôt :
+
+    ```sh
+    git clone <votre-repo>
+    ```
+
+2.  Installez les dépendances :
+
+    ```sh
+    npm install
+    ```
 
 ## 🚀 Project Structure
 

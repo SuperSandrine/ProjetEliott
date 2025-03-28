@@ -18,9 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout your repository using git # Cloner le dépôt
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
+      - name: Install, build, and upload your site # Installer, construire et uploader le site Astro
         uses: withastro/action@v3
         # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
@@ -34,6 +34,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages # Déployer sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
