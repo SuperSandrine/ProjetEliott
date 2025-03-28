@@ -10,5 +10,9 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   integrations: [svelte()],
   // Exemple : Construire pour un déploiement sans serveur avec Netlify
-  adapter: netlify()
+  adapter: netlify(),
+  site: 'https://astronaut.github.io',
+  base: '/ProjetEliott',
+
+
 });
