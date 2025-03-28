@@ -11,7 +11,7 @@ export default defineConfig({
   integrations: [svelte()],
   // Exemple : Construire pour un déploiement sans serveur avec Netlify
   adapter: netlify(),
-  site: 'https://astronaut.github.io',
+  site: 'https://SuperSandrine.github.io',
   base: '/ProjetEliott',
 
 
