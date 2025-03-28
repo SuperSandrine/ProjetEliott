@@ -13,7 +13,7 @@ npm create astro@latest -- --template basics
 ![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
 ## Prerequisite
-- Node.js - v18.17.1 or **v20.3.0**, v22.0.0 or higher. ( v19 and v21 are not supported.)
+- Node.js - v18.17.1 or **v20.5.0**, v22.0.0 or higher. ( v19 and v21 are not supported.)
 - Text editor - We recommend VS Code with our Official Astro extension.
 - Terminal - Astro is accessed through its command-line interface (CLI).
 
